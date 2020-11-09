@@ -37,7 +37,6 @@ export default function App() {
    <TextField id="outlined-size-small" label="Password" variant="outlined" />
 </form>
 <Button style={buttonStyle} size='large' disableElevation color='default'> Get started</Button>
-
    
     </div>
   );
