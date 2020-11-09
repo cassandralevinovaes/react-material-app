@@ -10,8 +10,14 @@ const textAlignCenter = {
 }
 const buttonStyle = {
    width: '300px',
-      backgroundColor: '#f7dad9',
-      letterSpacing: '2px'
+      backgroundColor: '#968c83',
+      letterSpacing: '2px',
+      color:'#fff'
+}
+const buttonReg = {
+   width: '300px',
+     letterSpacing: '2px',
+      backgroundColor: '#f7dad9'
 }
 const facebookStyle = {
    width: '300px',
@@ -57,13 +63,16 @@ export default function App() {
 </form>
 <Button style={buttonStyle} size='large' disableElevation color='default'> Get started</Button>
 
-<br />
-<p> OR </p>
+
+{/*<p> OR </p>
    
    <Button style={facebookStyle} size='large' disableElevation color='default'> Login with facebook</Button>
    <p></p>
    
    <Button style={twitterStyle} size='large' disableElevation color='default'> Login with twitter</Button>
+<br />*/}
+   <p className='small'>Need an account?</p>
+    <Button style={buttonReg} size='large' disableElevation color='default'> Register now</Button>
     </div>
   );
 }

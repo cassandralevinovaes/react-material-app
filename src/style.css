@@ -9,10 +9,14 @@ h1{
 }
 p{
    font-family: 'Roboto', sans-serif;
-   
+   font-size: 20px;
    letter-spacing: 1px;
    
 }
 body{
-  background-color: #d6d2c4;
+  background-color: whitesmoke;
+}
+.small{
+  font-size: 14px;
+  padding-top: 2em;
 }
