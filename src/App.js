@@ -58,8 +58,8 @@ export default function App() {
 <p></p>
 
 <form className={classes.root} noValidate autoComplete="off">
-  <TextField id="outlined-size-small" label="Email" variant="outlined" /><br />
-   <TextField id="outlined-size-small" label="Password" variant="outlined" />
+  <TextField id="outlined-size-small" type='email' label="Email" variant="outlined" /><br />
+   <TextField id="outlined-size-small" type='password' label="Password" variant="outlined" />
 </form>
 <Button style={buttonStyle} size='large' disableElevation color='default'> Get started</Button>
 
