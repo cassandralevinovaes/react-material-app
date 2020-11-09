@@ -10,7 +10,8 @@ const textAlignCenter = {
 }
 const buttonStyle = {
    width: '300px',
-      backgroundColor: '#f7dad9'
+      backgroundColor: '#f7dad9',
+      letterSpacing: '2px'
 }
 const useStyles = makeStyles((theme) => ({
   root: {
