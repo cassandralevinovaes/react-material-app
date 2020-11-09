@@ -43,8 +43,10 @@ export default function App() {
   return (
 <div style={textAlignCenter}>
 
+
 <h1>React Material</h1>
 <p>Material UI for coding react app</p>
+
 <br />
 
 <p></p>
